@@ -1,0 +1,87 @@
+.m1 {
+    background-color: rgba(0,90,156,0.1);
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #005a9c;
+   }
+
+   .m2 {
+    background-color: #FFFFAF;
+    border: none;
+    margin-left: -50px;
+    color:#0080ff;
+    font-size: 0.8em;
+   }
+
+.actus {
+ border-spacing: 50px 0px;
+}
+   .m1, .m2 {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+    padding-right: 150px;
+   }
+
+   .img1 {
+    margin-left: 52px;
+    margin-bottom: -4px;
+    border: 1px solid #005A9C1A;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   }
+
+   .titreactu {
+    text-decoration: underline;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #005a9c;
+    margin-left: 170px;
+   }
+
+   .parution {
+    color: #0080ff;
+    font-size: 0.8em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: -155px;
+   }
+
+   .publication {
+    color: #0080ff;
+    font-size: 0.8em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: -245px;
+   }
+
+   .numéroactu {
+    color: #0080ff;
+    font-size: 0.8em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: -325px;
+   }
+
+   .caractères {
+    color: #0080ff;
+    font-size: 0.8em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: -250px;
+   }
+
+   .résumé {
+    color: #0080ff;
+    font-size: 0.8em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 6.5px;
+    text-decoration: none;
+   }
+
+   .résumé:opened {
+    color: #0080ff;
+    text-decoration: none;
+   }

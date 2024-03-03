@@ -1,0 +1,56 @@
+.tes {
+        text-align: center;
+        padding: 1px;;
+       }
+
+       a {
+        color: orange;
+       }
+
+       .tesc {
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 1.3em;
+        border-spacing: 0px;
+        color: #0080ff;
+       }
+
+       .subject {
+        background-color: rgba(255,255,0,0.25);
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        color: #0080ff;
+       }
+
+       .resume {
+        background-color: rgba(20,140,255,0.25);
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: #0080ff;
+       }
+
+       .linklisten {
+        background-color: rgba(255,100,255,0.25);
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: #0080ff;
+       }
+
+       .linkpdf {
+        background-color: rgba(0,255,0,0.25);
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        color: #0080ff;
+       }

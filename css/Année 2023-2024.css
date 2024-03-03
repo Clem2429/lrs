@@ -1,0 +1,213 @@
+.AvertissementLiens {
+    color: rgb(255, 153, 0);
+    background-color: rgba(254, 185, 57, 0.3);
+    text-align: center;
+    padding: 0.1px;
+    margin: 0 250px 0 250px;
+    font-size: 1.1em;
+}
+
+/* Texte défilant */
+.messagedefilant {
+    display: block;
+    margin: 40px auto;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    width: 70%;
+    max-width: 640px;
+    height: 60px;
+    color: orange;
+  }
+   
+  .messagedefilant div {
+    position: absolute;
+    min-width: 100%; /* au minimum la largeur du conteneur */
+  }
+   
+  .messagedefilant div span, 
+  .messagedefilant div:after {
+    position: relative;
+    display: inline-block;
+    font-size: 1.5em;
+    white-space: nowrap;
+    padding: 10px;
+  }
+   
+  .messagedefilant div span {
+    animation: defilement 12s infinite linear;
+    background: #FFF4E8;
+  }
+   
+  .messagedefilant div:after {
+    position: absolute;
+    top:0; left:0;
+    content:attr(data-text);
+    animation: defilement2 12s infinite linear;
+    background: #FFF4E8;
+    @media screen and (max-width: 800px) {
+      animation: defilement2 20s infinite linear;
+}
+  }
+   
+  @keyframes defilement {
+    0% { margin-left: 0; }
+    100% { margin-left: -100%; }
+  }
+   
+  @keyframes defilement2 {
+    0% { margin-left: 100%; }
+    100% { margin-left: 0%; }
+  }
+
+h4 {
+    margin: 0.5px;
+    color: #005a9c;
+    font-size: 150%;
+}
+
+           .conteneur {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+            @media screen and (max-width: 800px) {
+                    grid-template-rows: 1fr;
+                    grid-template-columns: 1fr;
+                    padding-left: 0px;
+                    padding-right: 0px;
+          }
+            }
+          
+          .emission {
+            background-color: white;
+            box-shadow: 2px 2px 2px 2px rgba(0.1, 0.1, 0.1, 0.1);
+          }
+          
+          .emission:hover {
+            box-shadow: 5px 5px 5px 5px rgba(0.2, 0.2, 0.2, 0.2);
+          }
+         .top-emission {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+          } 
+          .date {
+            color: white;
+            background-color: #005a9c;
+            padding-left: 5px;
+            padding-right: 5px;
+          }
+          
+          .new {
+            color: white;
+            background-color: red;
+            padding-right: 9px;
+            padding-left: 8px;
+          }
+
+          .traduction {
+            color: white;
+            background-color: green;
+            padding-right: 9px;
+            padding-left: 8px;
+          }
+          
+          .sujet {
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #005a9c;
+          }
+          
+          .duration {
+            padding-left: 5px;
+            font-size: 1em;
+            color: rgb(100, 99, 99);
+          }
+          
+          .langue,
+          .description,
+          .members,
+          .itws,
+          .sounds {
+            padding-left: 5px;
+            padding-top: 5px;
+            font-size: 1em;
+            color: rgb(100, 99, 99);
+          }
+          .blue {
+            color: blue;
+            font-weight: normal;
+          }
+
+          .linksmembers {
+            color: blue;
+            font-weight: normal;
+            text-decoration: none;
+            padding-left: 5px;
+          }
+
+          .linksounds {
+            color: blue;
+            font-weight: normal;
+            padding-left: 5px;
+          }
+          .langue,
+          .duration,
+          .description,
+          .members,
+          .itws,
+          .sounds {
+            font-weight: bold;
+          }
+          .infosup {
+            display: none;
+          }
+          img {
+            width: 100%;
+            height: 100px;
+          }
+          .bouton {
+            padding: 7px;
+            width: 100%;
+            background-color: #005a9c;
+            font-size: 1em;
+            border: none;
+          }
+
+          .bouton:hover {
+            padding: 7px;
+            width: 100%;
+            background-color: #005a9c;
+            font-size: 1.2em;
+            border: none;
+          }
+          .bouton::before {
+            content: "Voir les Infos";
+            color: rgb(0, 230, 0);
+          }
+
+          .show-text .infosup {
+            display: block;
+          }
+          
+          .show-text .bouton::before {
+            content: "Cacher les Infos";
+            color: rgb(255, 0, 0);
+          }
+          
+          .listenemission {
+                width: 100%;
+                padding: 7px;
+                background-color: rgba(128, 128, 128, 0.5);
+                border: none;
+                font-size: 0.9em;
+          }
+
+          .listenemission:hover {
+            text-decoration: underline;
+            font-size: 1.1em;
+          }

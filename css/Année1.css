@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+.Année1 {
+margin: 50px;
+}
+
+header {
+  border: #005a9c solid 2px;
+  background: #005a9c;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.namepage {
+    background-color: #005a9c;
+    color: yellow;
+    text-align: center;
+    padding: 0.05px;
+    font-style: italic;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: serif;
+}
+
+nav {
+    background-color: beige;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid beige;
+}
+
+.lien_accueil {
+    margin: 0 0 0 50px;
+}
+
+.lien_accueil:hover {
+    background-color: #005a9c;
+    padding: 12px;
+}
+
+.lien_emissions {
+    margin: 30px;
+}
+
+.lien_emissions:hover {
+    background-color: #005a9c;
+    padding: 12px;
+}
+
+.lien_apropos {
+    margin: 10px;
+}
+
+.lien_apropos:hover {
+    background-color: #005a9c;
+    padding: 12px;
+}
+
+p {
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px 0 0 25px;
+}
+
+.Année1 {
+    border: solid black;
+}
+
+h2 {
+    color: #005a9c;
+    margin: 0 0 0 100px;
+    font-size: 2em;
+}
+
+table {
+border: 3px solid black;
+border-collapse: collapse;
+margin: auto;
+}
+
+td, th {
+padding: 15px;}
+
+.newsletter {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: yellowgreen;
+    background-color: white;
+    color: #005a9c;
+    border-radius: 10px;
+    margin-left: 210px;
+}
+
+.newsletter:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0.2, 0.2, 0.2, 0.2) ;
+}
+
+.VersionSite:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0.2, 0.2, 0.2, 0.2) ;
+}
+
+.VersionSite {
+    font-size: 0.9em;
+    margin-left: 30px;
+    color: grey;
+    vertical-align: middle;
+    }
+
+    .ContactUsB {
+        margin-left: 25px;
+        background-color: white;
+        border-radius: 10px;
+        vertical-align: middle;
+       }
+
+       .ContactUsB:hover {
+        box-shadow: 5px 5px 5px 5px rgba(0.2, 0.2, 0.2, 0.2) ;
+       }
+       

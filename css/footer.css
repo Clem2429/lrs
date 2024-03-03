@@ -1,0 +1,66 @@
+footer {
+    padding-top: 20px;
+    background: #005a9c;
+    padding-bottom: 5px;
+    }
+    
+.containerfooter {
+display: grid;
+grid-template-columns: 2fr 1fr;
+/* grid-template-rows: 2fr 1fr; */
+text-align: center;
+gap: 100px;
+margin: auto;
+padding-left: 100px;
+padding-right: 150px;
+@media screen and (max-width: 800px) {
+grid-template-columns: 1fr;
+padding-left: 0px;
+padding-right: 0px;
+}
+}
+
+.boxfooter { 
+line-height: 1.5em;
+}
+
+.titlefooter {
+color: white;
+font-weight: bold;
+font-size: 1.2em;
+}
+
+.linkfooter {
+color: black;
+}
+
+.ButtonVersion {
+    padding: 10px;
+    margin-left: 480px;
+}
+.ButtonVersionText {
+    color: grey;
+    text-decoration: none;
+    font-size: 0.95em;
+    text-align: middle;
+    padding: 10px;
+    outline: 1px solid grey;
+}
+
+.ButtonVersionText:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0.2, 0.2, 0.2, 0.2);
+    padding: 12px;
+    transition: 0.5s;
+}
+
+.TextInfoConceptor {
+    color: grey;
+    font-size: 0.8em;
+    font-style: italic;
+    margin-left: 470px;
+}
+
+.TextInfoConceptor:hover {
+    color: white;
+    font-size: 0.95em;
+}
