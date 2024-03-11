@@ -1,0 +1,111 @@
+.container_curseur {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    justify-items: center;
+}
+
+.box_curseur {
+    padding: 20px;
+    outline: 1px solid red;
+}
+
+.C1 {
+    cursor: alias;
+}
+
+.C2 {
+    cursor: all-scroll;
+}
+
+.C3 {
+    cursor: auto;
+}
+
+.C4 {
+    cursor: cell;
+}
+
+.C5 {
+    cursor: col-resize;
+}
+
+.C6 {
+    cursor: context-menu;
+}
+
+.C7 {
+    cursor: copy;
+}
+
+.C8 {
+    cursor: crosshair;
+}
+
+.C9 {
+    cursor: default;
+}
+
+.C10 {
+    cursor: e-resize;
+}
+
+.C11 {
+    cursor: text;
+}
+
+.C12 {
+    cursor: ew-resize;
+}
+
+.C13 {
+    cursor: zoom-out;
+}
+
+.C14 {
+    cursor: zoom-in;
+}
+
+.C15 {
+    cursor: grab;
+}
+
+.C16 {
+    cursor: grabbing;
+}
+
+.C17 {
+    cursor: help;
+}
+
+.C18 {
+    cursor: move;
+}
+
+.C19 {
+    cursor: no-drop;
+}
+
+.C20 {
+    cursor: none;
+}
+
+.C21 {
+    cursor: not-allowed;
+}
+
+.C22 {
+    cursor: pointer;
+}
+
+.C23 {
+    cursor: progress;
+}
+
+.C24 {
+    cursor:nesw-resize;
+}
+
+.C25 {
+    cursor: wait;
+}

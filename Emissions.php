@@ -2,17 +2,21 @@
 <html lang="fr">
     <head>
 <script src='js/global.js' async></script>
-        <meta charset="utf-8">
+        <meta charset="utf-8"><link rel="icon" href="img/logo_lrs.jpeg"/>
         <title>Emissions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="stylesheet" href="css/Emissions.css">
-        <link rel="stylesheet" href="css/global.css"><link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/Accueil.css">
     </head>
     <body class="Emissions">
 
         <header role="banner">
         <div class="title">Letot Radio Show</div>
         </header>
-<?php include('nav.html'); ?>
+<?php include('html/nav.html'); ?>
     <div class="namepage">
         <h1>Emissions</h1>
     </div>
@@ -20,45 +24,65 @@
 <div class="btn">
       <span id="headerup">⇧</span>
     </div>
-        <br> <br> <br>
         <section>
-        <table class="ESTABLE">
-            <tr>
-                <th class="THES"><h2>L'Emission Star</h2></th>
-            </tr>
-            <tr>
-            <td class="TDES">De temps en temps, la LRS vous propose <br> son Emission Star ! <br> Pour écouter celle du moment, <a href="Emission Star.php" style="color: yellow">cliquez ici !</a><br></td>
-        </table>
-        </section>
-        <br> <br> <br>
-        <section>
-                <table class="TAENV">
-                    <caption><h2 style="color: #005a9c
-                    
-  
-                    ">Ecouter nos émissions</h2></caption>
-                <br>
-                    <tr>
-                        <th>Emissions par année</th>
-                        <th>Statut</th>
-                    </tr>
-                    <tr>
-                        <td class="TDTEC"><a href="ANA.php" style="color:red" title="Aucun contenu disponible pour le moment - 21/22">Année 2021-2022</a> </td>
-                        <td class="TDTEC" style="color: red;">Aucune émission disponible pour le moment...</td>
-                    </tr>
-                    <tr>
-                        <td class="TDTEC"><a href="Année 2022-2023.php" style="color:#005a9c" title="2 émissions disponibles - 22/23">Année 2022-2023</a> </td>
-                        <td class="TDTEC" style="color: green;">11 émissions disponibles</td>
-                    </tr>
-                    <tr>
-                        <td class="TDTEC"><a href="Année 2023-2024.php" style="color:#005a9c" title="2 émissions disponibles - 23/24">Année 2023-2024</a> </td>
-                        <td class="TDTEC" style="color: green;">2 émissions disponibles</td>
-                    </tr>
-            </table>
-            <br> <br>
+
+            <div class="box_emission_star">
+                <h3 class="title_box_emission_star">La Letot Radio Show vous propose d'écouter son Emission Star</h3>
+                <p class="text_info_emission_star">**.** Minutes <strong class="b_sepa_elmts">|</strong> **/**/2024 <strong class="b_sepa_elmts">|</strong> Français</p>
+                <a href="emission_star.php"><button class="button_listen_emission_star">Résister, S'évader</button></a>
+            </div>
+
+            <!-- Pour faire apparaitre le module "Nouveau", copier/coller ce code :
+                <span style="display: yes;" class="text_new">Nouveau</span>
+            entre <div class="box_new"> &ensp;</div>
+            Pensez à vérifier que la mention "display" soit égale à "yes" et non à "no" et supprimez le "&ensp;".
+             -->
+            <!-- Box 2023-2024  -->
+
+            <div class="container_emissions_presentation">
+                <div class="box_presentation">
+                    <div class="box_new"><span style="display: yes;" class="text_new">Nouveau</span></div>
+                    <div class="section_logo section_2324"><img class="logo_lrs" src="img/logo_lrs.jpeg" alt="logo LRS"></div>
+                    <p class="list_details_pages">
+                        ↪ <strong>4</strong> Emissions disponibles <br>
+                        ↪ <strong>00h 49m 27s</strong> d'émissions
+                    </p>
+                    <a href="annee_23-24.php"><button class="button_box_present_emission button_2324">Année 2023-2024</button></a>
+                </div>
+
+            <!-- Box 2022-2023 -->
+
+            <div class="box_presentation">
+                    <div class="box_new">&ensp;</div>
+                    <div class="section_logo"><img class="logo_lrs" src="img/logo_lrs.jpeg" alt="logo LRS"></div>
+                    <p class="list_details_pages list_2223">
+                        ↪ <strong>11</strong> Emissions disponibles <br>
+                        ↪ <strong>01h 30m 39s</strong> d'émissions
+                    </p>
+                    <a href="annee_22-23.php"><button class="button_box_present_emission button_2223">Année 2022-2023</button></a>
+                </div>
+                
+            <!-- Box 2021-2022 -->
+                
+                <div class="box_presentation">
+                <div class="box_new">&ensp;</div>
+                    <div class="section_logo"><img class="logo_lrs" src="img/logo_lrs.jpeg" alt="logo LRS"></div>
+                    <p class="list_details_pages list_2122">
+                        ↪ <strong>0</strong> Emissions disponibles<sup class="case_info" title="Aucune émission n'est disponible pour le moment">?</sup> <br>
+                        ↪ <strong>00h 00m 00s</strong> d'émissions
+                    </p>
+                    <a href="annee_21-22.php"><button disabled title="Aucune émission n'est actuellement disponible" class="button_box_present_emission button_2122">Année 2021-2022</button></a>
+                </div>
+            </div>
+
+
+
+<br><br>
+
+
         </section>
     </main>
     <div class="footer">
-<?php include('footer.html'); ?>   
+<?php include('html/footer.html'); ?>   
        </body>
        </html>

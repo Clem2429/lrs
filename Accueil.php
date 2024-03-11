@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"><link rel="icon" href="img/logo_lrs.jpeg"/>
         <script src='js/global.js' async></script>
-        <script src='js/timer.js' async></script>
+        <script src='js/countdown.js' async></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Accueil</title>
-        <link rel="stylesheet" href="css/Accueil.css">
-        <link rel="stylesheet" href="css/global.css"><link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/countdown.css">
         <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/timer.css">
     </head>
     <body class="Accueil">
         <header role="banner" id="header">
         <div class="title">Letot Radio Show</div>
         </header>
-        <?php include('nav.html'); ?>
+        <?php include('html/nav.html'); ?>
     <div class="namepage">
         <h1>Accueil</h1>
     </div>
@@ -22,9 +23,7 @@
 <div class="btn">
       <span id="headerup">⇧</span>
     </div>
-        <section>
-            <!-- style="background-image: url('img/Debarquement.jpg'); background-size: cover;" -->
-       
+        <section>       
             <div style="background-image: url('img/landing.jpg'); background-size: cover;" class="countdown">
                 <h2 class="timer" style="letter-spacing: 15px; margin-left: 110px;"></h2>
                 <span class="j">Jours</span>
@@ -37,56 +36,59 @@
                 <a href="lien"><button style="margin-left: 270px;" class="custom-btn btn-5 BTN1">Résister, S'évader</button></a><a href="lien"><button class="custom-btn btn-5">Le D-Day</button></a>
             </div>
             </div>
+            <br>
+                    <div class="first_container_accueil">
+                        <div class="box_first_container_accueil">
+                              <div class="number_presentation_accueil">67</div> 
+                              <div class="text_presentation_first_accueil">Membres</div>   
+                              <br><br>
+                              <a href="notre_equipe.php"><button class="button_presentation_first_accueil">Découvrez notre équipe</button></a>            
+                        </div>
+                        <div class="box_first_container_accueil">
+                              <div class="number_presentation_accueil">15</div> 
+                              <div class="text_presentation_first_accueil">Emissions</div>   
+                              <br><br>
+                              <a href="emissions.php"><button class="button_presentation_first_accueil">Ecoutez nos émissions</button></a>            
+                        </div>
+                        <div class="box_first_container_accueil">
+                              <div class="number_presentation_accueil">3 ans</div> 
+                              <div class="text_presentation_first_accueil">de Radio</div>   
+                              <br><br>
+                              <a href="la_lrs.php"><button class="button_presentation_first_accueil">Apprenez-en plus</button></a>            
+                        </div>
+                    </div>
+                    <h1 class="title_bienvenue">Bienvenue !</h1>
+                        <p class="text_bienvenue" >La Letot Radio Show vous souhaite la bienvenue sur son site. <br>
+                            N'hésitez pas à découvrir notre site depuis notre menu !</p>
+                            <br>
+                    <div class="second_container_accueil">
+                        <div class="box_second_container_accueil">
+                                <div class="text_second_container">N'hésitez pas à découvrir nos actualités !</div>
+                                <div class="paratext_second_container">Vous en apprendrez davantage sur ce que fait la LRS...</div>
+                                <br><br>
+                                <a href="actualites.php"><button disabled style="cursor: no-drop;" class="button_second_container">Découvrir nos actus</button></a>
+                        </div>
+                        <div class="box_second_container_accueil">
+                                <div class="text_second_container">N'hésitez pas à écouter notre Emission Star</div>
+                                <div class="paratext_second_container">Nous y parlons sûrement des sujets actuels</div>
+                                <br><br>
+                                <a href="emission_star.php"><button disabled style="cursor: no-drop;" class="button_second_container">Ecouter notre Emission Star</button></a>
+                        </div>
+                    </div>
 
-
-
-
-
+                    <div class="third_container_accueil">
+                            <h5 class="text_help_accueil" >Si vous avez une question, ou que vous rencontrez un problème, vous pouvez :</h5>
+                        <div class="box_button_third_container">
+                            <a href="nous_contacter.php"><button class="button_second_container">Nous contacter</button></a>
+                          <span class="ou">ou</span>
+                            <a href="page_indispo.php"><button disabled style="cursor: no-drop;" class="button_second_container">Consulter la page d'Aide</button></a>
+                        </div>
+                    </div>
 
             <br>
-            <img class="left" 
-src="img/breveon390-11f25.jpeg" width="100" height="100" 
-alt="Logo LRS : Casque gris sur enceinte bleue avec logo du collège Letot" title="Logo LRS" style="float:left;margin:0 10px 0 20px;" />
-        <h2 style='font-family: times new roman'>Bienvenue !</h2>
-        <p style="font-size: 1.3em; color: #0080ff;">     
-            Bienvenue sur le site de la LRS !
-        <br>Ce site est dédié à la Letot Radio Show, la webradio du collège Letot.
-        <br>Sur ce site, tu pourras : 
-        <ul>
-            <li style="font-size: 1.3em; color: #0080ff; text-align: left; margin-left: 55px;">Ecouter toutes nos émissions de l'année en cours et de l'année précédente dans la rubrique
-            <a href="Emissions.php" style="font-family: times new roman; color: #005a9c; font-style: italic;">Emissions</a>.</li>
-            <li style="font-size: 1.3em; color: #0080ff; text-align: left; margin-left: 55px;">Lire toutes nos newsletter dans la rubrique 
-            <a href="#" style="font-family: times new roman; color: #005a9c; font-style: italic;">Newsletter</a>.</p>
-            <li style="font-size: 1.3em; color: #0080ff; text-align: left; margin-left: 55px;">Lire toute l'actualité nous concernant dans la rubrique 
-            <a href="Actualités.php" style="font-family: times new roman; color: #005a9c; font-style: italic;">Actualités</a>.</p>
-            <li style="font-size: 1.3em; color: #0080ff; text-align: left; margin-left: 55px;">Nous contacter grâce à ces pages : 
-            <a href="Nous Contacter.php" style="font-family: times new roman; color: #005a9c; font-style: italic;">Nous Contacter</a> et <a href="Notre équipe.php" style="font-family: times new roman; color: #005a9c; font-style: italic;">Notre équipe</a>.</p>
-        </ul>
-        </p>
-        </section>
-        <br>
-        <br>
-        <br>
-        <section>
-            <h2  style='font-family: times new roman'>La LRS, c'est quoi ?</h2>
-            <p>
-                La LRS ou Letot Radio Show, c'est la Webradio du collège Charles Letot de Bayeux, elle a été créée en  2021 par <br>
-                les membres de l'AS Reporter. Maintenant, c'est une vingtaine de membres qui, chaque mardi, partent à la recherche <br>
-                de nouveaux reportages, qui, chaque semaine, réalisent des interviews plus spectaculaires les unes que les autres.
-                <br>Après avoir enregistré dans une boîte en carton, nous le faisons maintenant dans... <a href="La LRS.php" style="color: #005a9c">Lire la suite</a>
-            </p>
-        </section>
-        <br> <br> <br>
-        <section>
-            <h2 style='font-family: times new roman'>Notre équipe</h2>
-            <p>À la base, c'est deux profs et un surveillant ainsi que quelques élèves qui animaient la LRS !
-            <br> Maintenant, c'est plusieurs profs, ainsi qu'une vingtaine d'élèves qui animent la LRS.
-            <br> Alors, qu'attendez-vous ? <a href="Notre équipe.php" style="color: #005a9c">Découvrez notre équipe !</a>
-            </p>
-            <br> <br> <br>
-        </section>
     </main>
 	<div class="footer">
-    <?php include('footer.html'); ?>  </div>    
+    <?php include('html/footer.html'); ?>
+    </div>    
        </body>
 </html>
